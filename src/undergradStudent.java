@@ -1,4 +1,4 @@
-// Inheretance is to use class hierarchies to enabel the reuse of functionality 
+// Inheretance is to use class hierarchies to enable the reuse of functionality 
 public class undergradStudent extends Student implements Major{
 
     private Double gpa;
@@ -47,8 +47,8 @@ public class undergradStudent extends Student implements Major{
     @Override
     public String greeting() {
         
-        return super.greeting() + "My mamjor is " + major + ". My GPA is " + gpa +
-        " and I have earned " + creditsEarned;
+        return super.greeting() + " My major is " + major + ". My GPA is " + gpa +
+        " and I have earned " + creditsEarned + " credits";
     }
 
     @Override
